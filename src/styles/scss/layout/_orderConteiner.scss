@@ -1,0 +1,39 @@
+.orderConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+
+    .order {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 200px;
+        padding: 20px;
+
+        h1 {
+            margin-bottom: 50px;
+            font-weight: lighter;
+
+            span {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: black;
+            @include buttonStyle;
+            width: 200px;
+            text-decoration: none;
+        }
+    }
+}

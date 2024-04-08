@@ -1,0 +1,18 @@
+.cartConteiner {
+    display: flex;
+    gap: .625rem;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.cartEmpty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+    @include hover-focus;
+}

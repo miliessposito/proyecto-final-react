@@ -1,0 +1,22 @@
+.imgProductCart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .9375rem;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    button {
+        @include hover-focus;
+    }
+}

@@ -1,0 +1,19 @@
+.cartContainerDetail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+
+    .detail {
+        line-height: 60px
+    }
+
+    .total {
+        line-height: 90px
+    }
+
+    button {
+        @include buttonStyle;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,45 @@
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    ul {
+        display: flex;
+        gap: 30px;
+
+        li {
+            list-style: none;
+
+            button {
+                width: 150px;
+                height: 30px;
+                background: none;
+                border: 1px solid black;
+                border-radius: 5px;
+                @include hover-focus;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .cartWidget {
+        color: black;
+        font-size: 25px;
+
+        &:focus {
+            border: 2px solid blue;
+        }
+
+    }
+}
